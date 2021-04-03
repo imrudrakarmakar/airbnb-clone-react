@@ -1,0 +1,23 @@
+.home__section {
+    display: flex;
+    padding: 30px;
+}
+
+.home > h1 {
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.home > h2 {
+    padding-left: 30px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 600px) {
+    .home__section {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
